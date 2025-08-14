@@ -700,9 +700,10 @@ export default function HomePage() {
           <div className="border-t border-slate-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex items-center space-x-8 mb-4 md:mb-0">
-                <Image src="/ridge-realty-group-logo.png" alt="Ridge Realty Group" className="h-10" width={80} height={40} />
-                <Image src="/equal-housing-opportunity-logo.png" alt="Equal Housing Opportunity" className="h-10" width={80} height={40} />
-                <Image src="/mls-logo.png" alt="MLS" className="h-10" width={80} height={40} />
+                <Image src="/ridge.webp" alt="Ridge Realty Group" className="h-10" width={80} height={40} />
+                <Image src="/equalhousing.webp" alt="Equal Housing Opportunity" className="h-10" width={80} height={40} />
+                <Image src="/realtor.webp" alt="MLS" className="h-10" width={80} height={40} />
+                <Image src="/pahrump.webp" alt="MLS" className="h-10" width={80} height={40} />
               </div>
               <p className="text-slate-400 text-sm">© 2024 Marci Metzger. All rights reserved.</p>
             </div>
