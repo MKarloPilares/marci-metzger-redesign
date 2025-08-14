@@ -2,6 +2,7 @@ import { Phone, Mail, MapPin, Star, Home, Users, TrendingUp, Search, MessageCirc
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -38,10 +39,12 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 text-white">
-          <img
+          <Image
             src="/background1.jpg"
             alt="Hero background"
+            fill
             className="absolute inset-0 w-full h-full object-cover z-0"
+            priority
           />
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
@@ -112,9 +115,11 @@ export default function HomePage() {
             <div className="flex justify-center">
               <div className="relative">
                 <div className="w-80 h-80 rounded-full overflow-hidden border-8 border-white shadow-2xl">
-                  <img
+                  <Image
                     src="/marci.webp"
                     alt="Marci Metzger - Professional Realtor"
+                    width={320}
+                    height={320}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -207,7 +212,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6">GET IT SOLD</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Proven results with personalized service. I don't just list your home—I get it sold.
+              Proven results with personalized service. I don&#39;t just list your home—I get it sold.
             </p>
           </div>
 
@@ -237,6 +242,8 @@ export default function HomePage() {
                 src="/sample1.webp"
                 alt="Beautiful modern kitchen interior"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
+                width={640}
+                height={320}
               />
             </div>
           </div>
@@ -247,6 +254,8 @@ export default function HomePage() {
                 src="/sample2.webp"
                 alt="Luxury home with pool at sunset"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
+                width={640}
+                height={320}
               />
             </div>
             <div>
@@ -281,7 +290,7 @@ export default function HomePage() {
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Guide to Buyers</h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists,
-                contractors on speed dial, & more!
+                contractors on speed dial, &amp; more!
               </p>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
@@ -312,6 +321,8 @@ export default function HomePage() {
                 src="/sample3.webp"
                 alt="House keys with red house keychain"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
+                width={640}
+                height={320}
               />
             </div>
           </div>
@@ -322,9 +333,10 @@ export default function HomePage() {
       <section id="listings" className="py-20 bg-slate-800 text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-slate-800 to-slate-700"></div>
         <div className="absolute inset-0 opacity-10">
-          <img
+          <Image
             src="/pahrump-area-home.jpg"
             alt="Pahrump neighborhood aerial view"
+            fill
             className="w-full h-full object-cover"
           />
         </div>
@@ -436,9 +448,11 @@ export default function HomePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img
+              <Image
                 src="/gallery1.webp"
                 alt="Luxury desert home with mountain views"
+                width={400}
+                height={256}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
@@ -450,9 +464,11 @@ export default function HomePage() {
             </div>
 
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img
+              <Image
                 src="/gallery2.webp"
                 alt="Modern luxury kitchen with marble countertops"
+                width={400}
+                height={256}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
@@ -464,9 +480,11 @@ export default function HomePage() {
             </div>
 
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img
+              <Image
                 src="/gallery3.webp"
                 alt="Traditional Pahrump home with desert landscaping"
+                width={400}
+                height={256}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
@@ -478,9 +496,11 @@ export default function HomePage() {
             </div>
 
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img
+              <Image
                 src="/gallery4.webp"
                 alt="Luxury home exterior with swimming pool"
+                width={400}
+                height={256}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
@@ -492,9 +512,11 @@ export default function HomePage() {
             </div>
 
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img
+              <Image
                 src="/gallery5.webp"
                 alt="Home with stunning mountain views"
+                width={400}
+                height={256}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
@@ -506,9 +528,11 @@ export default function HomePage() {
             </div>
 
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img
+              <Image
                 src="/gallery6.webp"
                 alt="Cozy family home with front yard"
+                width={400}
+                height={256}
                 className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
@@ -532,7 +556,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6">CALL OR VISIT</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Get in touch today to discuss your real estate needs. I'm here to help with personalized service.
+              Get in touch today to discuss your real estate needs. I&#39;m here to help with personalized service.
             </p>
           </div>
 
@@ -676,9 +700,9 @@ export default function HomePage() {
           <div className="border-t border-slate-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex items-center space-x-8 mb-4 md:mb-0">
-                <img src="/ridge-realty-group-logo.png" alt="Ridge Realty Group" className="h-10" />
-                <img src="/equal-housing-opportunity-logo.png" alt="Equal Housing Opportunity" className="h-10" />
-                <img src="/mls-logo.png" alt="MLS" className="h-10" />
+                <img src="/ridge-realty-group-logo.png" alt="Ridge Realty Group" className="h-10" width={80} height={40} />
+                <img src="/equal-housing-opportunity-logo.png" alt="Equal Housing Opportunity" className="h-10" width={80} height={40} />
+                <img src="/mls-logo.png" alt="MLS" className="h-10" width={80} height={40} />
               </div>
               <p className="text-slate-400 text-sm">© 2024 Marci Metzger. All rights reserved.</p>
             </div>
