@@ -221,7 +221,7 @@ export default function HomePage() {
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Top Residential Sales Last 5 Years</h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 We helped nearly 90 clients in 2023, and closed 28.3 million in sales! Our team works hard every day to
-                grow and learn, so that we may continue to excel in our markets. Our clients deserve our best, & we want
+                grow and learn, so that we may continue to excel in our markets. Our clients deserve our best, &amp; we want
                 to make sure our best is better every year.
               </p>
               <div className="grid grid-cols-2 gap-6">
@@ -238,7 +238,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="order-1 lg:order-2">
-              <img
+              <Image
                 src="/sample1.webp"
                 alt="Beautiful modern kitchen interior"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
@@ -250,7 +250,7 @@ export default function HomePage() {
 
           <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
             <div>
-              <img
+              <Image
                 src="/sample2.webp"
                 alt="Luxury home with pool at sunset"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
@@ -259,7 +259,7 @@ export default function HomePage() {
               />
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-slate-800 mb-4">Don't Just List It...</h3>
+              <h3 className="text-2xl font-bold text-slate-800 mb-4">Don&#39;t Just List It...</h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 GET IT SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible
                 buyer, getting you top dollar for your home.
@@ -317,7 +317,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="order-1 lg:order-2">
-              <img
+              <Image
                 src="/sample3.webp"
                 alt="House keys with red house keychain"
                 className="w-full h-80 object-cover rounded-lg shadow-lg"
@@ -442,7 +442,7 @@ export default function HomePage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-slate-800 mb-6">PHOTO GALLERY</h2>
             <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-              Explore some of the beautiful properties I've helped clients buy and sell in the Pahrump Valley
+              Explore some of the beautiful properties I&#39;ve helped clients buy and sell in the Pahrump Valley
             </p>
           </div>
 
@@ -700,9 +700,9 @@ export default function HomePage() {
           <div className="border-t border-slate-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="flex items-center space-x-8 mb-4 md:mb-0">
-                <img src="/ridge-realty-group-logo.png" alt="Ridge Realty Group" className="h-10" width={80} height={40} />
-                <img src="/equal-housing-opportunity-logo.png" alt="Equal Housing Opportunity" className="h-10" width={80} height={40} />
-                <img src="/mls-logo.png" alt="MLS" className="h-10" width={80} height={40} />
+                <Image src="/ridge-realty-group-logo.png" alt="Ridge Realty Group" className="h-10" width={80} height={40} />
+                <Image src="/equal-housing-opportunity-logo.png" alt="Equal Housing Opportunity" className="h-10" width={80} height={40} />
+                <Image src="/mls-logo.png" alt="MLS" className="h-10" width={80} height={40} />
               </div>
               <p className="text-slate-400 text-sm">© 2024 Marci Metzger. All rights reserved.</p>
             </div>
