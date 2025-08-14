@@ -159,7 +159,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">Market Analysis</h3>
               <p className="text-slate-600 leading-relaxed">
-                Comprehensive market evaluations and pricing strategies to maximize your property's value.
+                Comprehensive market evaluations and pricing strategies to maximize your property&#39s value.
               </p>
             </div>
 
@@ -568,7 +568,7 @@ export default function HomePage() {
               </div>
               <h3 className="text-2xl font-bold text-slate-800 mb-4">Call Me Today</h3>
               <p className="text-slate-600 mb-6 leading-relaxed">
-                Ready to discuss your real estate goals? Give me a call and let's talk about how I can help you achieve
+                Ready to discuss your real estate goals? Give me a call and let&#39s talk about how I can help you achieve
                 them.
               </p>
               <div className="space-y-4">
